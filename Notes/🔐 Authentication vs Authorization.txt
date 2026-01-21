@@ -1,0 +1,68 @@
+🔐 Authentication vs Authorization
+
+Authentication
+
+Verifies the identity of the user
+uses biometrics, an OTP, a password, or a username
+The initial stage of security
+
+Authorization
+
+determines what the user is able to access
+assigns roles such as admin or regular user.
+occurs following authentication
+
+SOC View
+
+SOC keeps an eye on login attempts and unauthorized access.
+identifies attempts at unauthorized access and brute force
+
+🔑 Two-Factor Authentication (2FA)
+
+Using two security factors to log in is known as 2FA.
+Something you are familiar with (password)
+Something you own, like an authenticator app or an OTP
+
+Example
+
+Password + Google Authenticator code
+
+SOC Importance
+
+Prevents account takeover attacks
+
+SOC detects failed OTP attempts as suspicious activity
+
+🔁 OAuth 2.0
+
+OAuth 2.0 is a framework for secure authorization:
+enables login without disclosing a password.
+replaces credentials with access tokens.
+Example
+
+“Login with Google”
+
+SOC View
+
+Reduces password theft risk
+
+SOC monitors token misuse and abnormal access
+
+🔒 Encryption
+
+Data is transformed into an unintelligible format via encryption:
+
+It can only be decrypted by authorized users.
+Used for
+
+Passwords
+
+User data
+
+Sensitive information
+
+SOC Importance
+
+Protects data during breaches
+
+Encrypted data reduces incident severity
